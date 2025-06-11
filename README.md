@@ -16,7 +16,7 @@ Just insert the script into any model, and it handles everything automatically.
 No configuration, no function calls. It just works.
 
 <a href="https://github.com/lerman-dev/Weldify/releases/tag/Weldify" target="_blank">
-  <img src="https://raw.githubusercontent.com/lerman-dev/Weldify/refs/heads/main/download.svg" alt="Download .rbxm" width="400" height="90" />
+  <img src="https://raw.githubusercontent.com/lerman-dev/Weldify/refs/heads/main/download.svg" alt="Download .rbxm" width="340" height="75" />
 </a>
 
 
