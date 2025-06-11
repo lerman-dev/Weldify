@@ -1,8 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="180" height="40" viewBox="0 0 180 40" fill="none">
-  <rect width="180" height="40" rx="8" fill="#1D1D1D"/>
-  <rect x="1" y="1" width="178" height="38" rx="7" stroke="#3FCF8E" stroke-width="2"/>
+  <defs>
+    <linearGradient id="border-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3FCF8E"/>
+      <stop offset="100%" stop-color="#00FFAB"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%" >
+      <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#3FCF8E" flood-opacity="0.7"/>
+    </filter>
+  </defs>
+
+  <rect width="180" height="40" rx="8" fill="#1D1D1D" />
+  <rect x="1" y="1" width="178" height="38" rx="7" stroke="url(#border-gradient)" stroke-width="2" filter="url(#glow)" />
+
   <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
-        font-family="Segoe UI, sans-serif" font-size="14" fill="#FFFFFF">
+        font-family="Segoe UI, sans-serif" font-size="14" fill="#FFFFFF" style="user-select:none;">
     ⬇ Download .rbxm
   </text>
 </svg>
