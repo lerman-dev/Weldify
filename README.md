@@ -29,3 +29,6 @@ No configuration, no function calls. It just works.
 ## 📜 License
 
 MIT – use, remix, modify, rule the world 🧪
+
+![Certified by Robik](./certified-by-robik.svg)
+
