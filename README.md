@@ -30,5 +30,5 @@ No configuration, no function calls. It just works.
 
 MIT – use, remix, modify, rule the world 🧪
 
-![Certified by Robik](./certified-by-robik.svg)
+![Dancing Alienchik](https://docs.sunc.su/assets/dancing-alienchik.webp)
 
