@@ -9,7 +9,6 @@ Just insert the script into any model, and it handles everything automatically.
 - 🧲 Auto-uses `Motor6D` for characters, `Weld` otherwise
 - 📌 Temporarily anchors all parts during welding
 - 🚀 Unanchors the model after welding is done
-- 🔐 Names welds and CFrameValues with `Weldify_` prefix
 
 ## 🛠️ Usage
 
