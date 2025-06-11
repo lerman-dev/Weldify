@@ -19,15 +19,7 @@
   <g transform="translate(140, 5)">
     <rect width="95" height="30" rx="6" fill="#FFFFFF" opacity="0.1"/>
     <text x="47.5" y="20" text-anchor="middle" font-family="Roboto, sans-serif" font-size="14" fill="#FFFFFF">
-      <tspan>
-        Robik™
-      </tspan>
-      <animateTransform attributeName="transform"
-                        attributeType="XML"
-                        type="translate"
-                        values="0,0;0,-1;0,0"
-                        dur="3s"
-                        repeatCount="indefinite"/>
+      Robik™
     </text>
   </g>
 </svg>
