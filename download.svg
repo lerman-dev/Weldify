@@ -1,19 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="180" height="40" viewBox="0 0 180 40" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="40" viewBox="0 0 180 40" fill="none" style="cursor:pointer;">
   <defs>
     <linearGradient id="border-gradient" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#3FCF8E"/>
-      <stop offset="100%" stop-color="#00FFAB"/>
+      <stop offset="0%" stop-color="#3FCF8E">
+        <animate attributeName="stop-color" values="#3FCF8E;#00FFC3;#3FCF8E" dur="3s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#00FFAB">
+        <animate attributeName="stop-color" values="#00FFAB;#3FFFD3;#00FFAB" dur="3s" repeatCount="indefinite" />
+      </stop>
     </linearGradient>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%" >
-      <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#3FCF8E" flood-opacity="0.7"/>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#3FCF8E" flood-opacity="0.9"/>
     </filter>
   </defs>
 
   <rect width="180" height="40" rx="8" fill="#1D1D1D" />
-  <rect x="1" y="1" width="178" height="38" rx="7" stroke="url(#border-gradient)" stroke-width="2" filter="url(#glow)" />
+  <rect id="border" x="1" y="1" width="178" height="38" rx="7" stroke="url(#border-gradient)" stroke-width="2" filter="url(#glow)" />
 
-  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
+  <text id="btn-text" x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
         font-family="Segoe UI, sans-serif" font-size="14" fill="#FFFFFF" style="user-select:none;">
     ⬇ Download .rbxm
   </text>
+
+  <style>
+    <![CDATA[
+      #border, #btn-text {
+        transition: transform 0.3s ease;
+      }
+      svg:hover #border, svg:hover #btn-text {
+        transform: scale(1.05);
+      }
+      svg:hover #btn-text {
+        fill: #00FFC3;
+        font-weight: 700;
+      }
+    ]]>
+  </style>
 </svg>
