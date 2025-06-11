@@ -13,7 +13,11 @@ Just insert the script into any model, and it handles everything automatically.
 ## 🛠️ Usage
 
 **Drag and drop** the script into any model you want welded.  
-No configuration, no function calls. It just works™.
+No configuration, no function calls. It just works.
+
+<a href="https://github.com/lerman-dev/Weldify/releases/tag/Weldify" target="_blank">
+  <img src="https://raw.githubusercontent.com/lerman-dev/Weldify/refs/heads/main/download.svg" alt="Download .rbxm" width="200" height="40" />
+</a>
 
 ## 💥 Smart Behavior
 
