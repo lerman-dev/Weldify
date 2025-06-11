@@ -26,7 +26,7 @@
                         attributeType="XML"
                         type="translate"
                         values="0,0;0,-1;0,0"
-                        dur="1s"
+                        dur="3s"
                         repeatCount="indefinite"/>
     </text>
   </g>
