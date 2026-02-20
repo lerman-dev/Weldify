@@ -15,9 +15,17 @@ Just insert the script into any model, and it handles everything automatically.
 **Drag and drop** the script into any model you want welded.  
 No configuration, no function calls. It just works.
 
-<a href="https://github.com/lerman-dev/Weldify/releases/tag/Weldify" target="_blank">
-  <img src="download.svg" alt="Download .rbxm" width="340" height="75" />
-</a>
+<div style="display: flex; gap: 20px; justify-content: center; align-items: center; width: 100%; max-width: 720px; margin: 0 auto;">
+  <!-- Левая кнопка -->
+  <a href="https://github.com/lerman-dev/Weldify/releases/tag/Weldify" target="_blank" style="flex: 1; text-decoration: none;">
+    <img src="download.svg" alt="Download .rbxm" width="340" height="75" style="width: 100%; height: auto; max-width: 340px; display: block;" />
+  </a>
+  
+  <!-- Правая кнопка -->
+  <a href="https://github.com/lerman-dev/Weldify/releases/tag/Weldify" target="_blank" style="flex: 1; text-decoration: none;">
+    <img src="toolbox.svg" alt="Download from Toolbox" width="340" height="75" style="width: 100%; height: auto; max-width: 340px; display: block;" />
+  </a>
+</div>
 
 
 ## 💥 Smart Behavior
