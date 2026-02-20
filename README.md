@@ -39,5 +39,3 @@ No configuration, no function calls. It just works.
 
 MIT – use, remix, modify, rule the world 🧪
 
-![Dancing Alienchik](https://docs.sunc.su/assets/dancing-alienchik.webp)
-
